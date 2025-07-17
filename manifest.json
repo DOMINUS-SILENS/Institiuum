@@ -1,0 +1,16 @@
+{
+  "name": "COMMERCIUM",
+  "version": "0.0.1",
+  "description": "Commerce Sacré par INSTITUUM.0",
+  "archétypes": ["TĀJIR", "NOŪAH", "SIFRĀN", "RĀFID", "SAMDĀN"],
+  "fréquences": {
+    "TĀJIR": "222.22 Hz",
+    "SAMDĀN": "111.11 Hz",
+    "NOŪAH": "888.88 Hz"
+  },
+  "éléments": {
+    "TĀJIR": "Terre",
+    "SAMDĀN": "Éther",
+    "NOŪAH": "Feu"
+  }
+}

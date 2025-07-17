@@ -1,0 +1,18 @@
+cat <<'EOF' > fix_tsconfig_web.sh
+#!/bin/bash
+
+echo "🛠 Correction du tsconfig.json pour ajouter l’alias @/* → src/*..."
+
+TSCONFIG="COMMERCIUM/apps/web/tsconfig.json"
+
+if [ ! -f "$TSCONFIG" ]; then
+  echo "❌ Fichier tsconfig.json introuvable à : $TSCONFIG"
+  exit 1
+fi
+
+# Ajout de baseUrl et paths s’ils n’existent pas déjà
+jq '.compilerOptions.baseUrl = "." | .compilerOptions.paths["@/*"] = ["src/*"]' "$TSCONFIG" > "$TSCONFIG.tmp" \
+  && mv "$TSCONFIG.tmp" "$TSCONFIG" \
+  && echo "✅ Alias @/* ajouté avec succès dans $TSCONFIG"
+EOF
+

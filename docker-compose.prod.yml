@@ -1,0 +1,57 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: ./apps/web
+      dockerfile: Dockerfile
+    container_name: commercium-web-prod
+    ports:
+      - "5174:80"
+    networks:
+      - commercium-prod
+    restart: unless-stopped
+
+  admin:
+    build:
+      context: ./apps/admin
+      dockerfile: Dockerfile
+    container_name: commercium-admin-prod
+    ports:
+      - "5173:80"
+    networks:
+      - commercium-prod
+    restart: unless-stopped
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: commercium-api-prod
+    ports:
+      - "8000:8000"
+    networks:
+      - commercium-prod
+    restart: unless-stopped
+
+  db:
+    image: postgres:15
+    container_name: commercium-db-prod
+    environment:
+      POSTGRES_USER: commercium
+      POSTGRES_PASSWORD: sacresecret
+      POSTGRES_DB: commercium_db
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata-prod:/var/lib/postgresql/data
+    networks:
+      - commercium-prod
+    restart: unless-stopped
+
+volumes:
+  pgdata-prod:
+
+networks:
+  commercium-prod:
+    driver: bridge

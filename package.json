@@ -1,0 +1,16 @@
+{
+  "name": "commercium",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm --prefix apps/web run dev\" \"npm --prefix apps/admin run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.1.1",
+    "react-hook-form": "^7.60.0",
+    "zod": "^4.0.5"
+  }
+}
