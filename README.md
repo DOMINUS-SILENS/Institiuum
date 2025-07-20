@@ -1,4 +1,4 @@
-# 𓂀 INSTITIUUM .0
+# 𓂀 INSTITIUUM
 
 **INSTITIUUM** est un noyau vivant, modulaire et évolutif conçu pour harmoniser le développement technologique avec les lois vibratoires, les archétypes sacrés et les principes d’architecture intemporelle.  
 Il constitue la fondation des projets tels que `COMMERCIUM`, `EMPORIUM` et `ORACULUM.D`, et agit comme un sanctuaire opérationnel pour les créateurs, artisans, enseignants, thérapeutes, et bâtisseurs d’un monde aligné.
