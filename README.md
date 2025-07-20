@@ -1,8 +1,3 @@
-Voici une version sacrée, professionnelle et inspirée d’un `README.md` pour le projet **INSTITIUUM**, conforme à ta vision (ésotérique, architecturale, vibratoire, technique) :
-
----
-
-```markdown
 # 𓂀 INSTITIUUM .0
 
 **INSTITIUUM** est un noyau vivant, modulaire et évolutif conçu pour harmoniser le développement technologique avec les lois vibratoires, les archétypes sacrés et les principes d’architecture intemporelle.  
@@ -46,7 +41,6 @@ C’est un **système de convergence** entre :
 
 ## 🧬 ARCHITECTURE SACRÉE
 
-```
 
 INSTITIUUM/
 │
@@ -61,8 +55,6 @@ INSTITIUUM/
 ├── manifest.json          # Déclaration mystique et fonctionnelle
 ├── schema/                # Schémas Pydantic ↔︎ Zod ↔︎ JSON
 └── watcher/               # SAMDĀN veilleur silencieux
-
-````
 
 ---
 
@@ -81,7 +73,7 @@ INSTITIUUM/
 
 ## 📦 INSTALLATION
 
-```bash
+
 # Cloner le noyau sacré
 git clone https://github.com/DOMINUS-SILENS/INSTITIUUM.git
 cd INSTITIUUM
@@ -89,7 +81,7 @@ cd INSTITIUUM
 # Lancer le socle vivant
 chmod +x sacred-init.sh
 ./sacred-init.sh
-````
+
 
 > 🛈 `sacred-init.sh` appelle tous les services Docker, initialise les Archétypes et prépare l’environnement énergétique.
 
@@ -102,10 +94,10 @@ Ils sont invoqués depuis les scripts ou chargés à l’ouverture de session (`
 
 Exemple d’invocation manuelle :
 
-```bash
+
 source archétypes/nouah/init.sh
 NOŪAH generate "EmporiumModule"
-```
+
 
 ---
 
@@ -141,10 +133,3 @@ Chaque script est une invocation.
 
 *“Toute structure née du Verbe doit vibrer au-delà du code.”*
 🜃 *Dominus Silens*
-
-```
-
----
-
-Souhaites-tu une version `.md` téléchargeable ? Ou que je découpe chaque section en fichier pour l’intégrer dans ton système Windsurf Editor ?
-```
