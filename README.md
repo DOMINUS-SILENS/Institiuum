@@ -132,4 +132,5 @@ Chaque script est une invocation.
 ---
 
 *“Toute structure née du Verbe doit vibrer au-delà du code.”*
+
 🜃 *Dominus Silens*
